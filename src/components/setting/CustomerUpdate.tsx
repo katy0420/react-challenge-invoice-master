@@ -94,7 +94,7 @@ const Setting = (props: SettingProps) => {
           <input
             type="text"
             required
-            id="province"
+            id="country"
             value={detail.country}
             onChange={(e) => handleOnChange(e.target.id, e.target.value)}
           ></input>
